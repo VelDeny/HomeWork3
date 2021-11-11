@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin-left: 0;
+  margin-right: 0;
+}
+div.head {
+  width: 1250px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 0;
+}
+.headleft,
+.headright {
+  text-align: center;
+  width: 50%;
+  display: inline-block;
+  font-size: 16px;
+}
+nav.list ul li {
+  display: inline-block;
+}
+nav a {
+  text-decoration: none;
+  padding: 15px;
+  color: #646464;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.headleft span {
+  font-size: 50px;
+  vertical-align: middle;
+}
+.headleft img {
+  vertical-align: middle;
+}
+div.banner {
+  background: url(../img/banner.png) no-repeat;
+  background-size: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+div.phone,
+div.text {
+  width: 50%;
+  display: inline-block;
+  font-size: 10px;
+}
+
+div.phone img {
+  display: block;
+  margin-right: 30px;
+  margin-left: auto;
+  padding-top: 42px;
+}
+div.text {
+  position: absolute;
+  top: 30%;
+}
+.bigtext,
+.smalltext {
+  color: white;
+}
+span.bigtext {
+  font-size: 30px;
+}
+span.smalltext {
+  font-size: 20px;
+}
+div.icon {
+  width: 1250px;
+  margin: 0 auto;
+  display: table;
+}
+div.pen,
+div.comp,
+div.basket {
+  padding: 10px;
+  display: table-cell;
+  text-align: center;
+}
+div.icon h3 {
+  color: blue;
+}
+div.Shopping {
+  width: 1250px;
+  margin: 0 auto;
+  font-size: 0;
+}
+div.Shopping div.bluebasket,
+div.Bullet {
+  display: inline-block;
+  width: 50%;
+  font-size: 16px;
+}
+div.bluebasket {
+  text-align: center;
+}
+div.Bullet {
+  text-align: left;
+  vertical-align: bottom;
+  color: #949494;
+  line-height: 2;
+}
+div.Bullet p {
+  width: 450px;
+  height: 240px;
+}
+footer div.footer {
+  width: 1250px;
+  height: 94px;
+  margin: 0 auto;
+  text-align: center;
+}
+footer h5 {
+  color: #949494;
+}
