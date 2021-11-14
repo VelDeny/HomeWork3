@@ -3,6 +3,7 @@
 }
 body {
   margin: 0;
+  font-family: "Open Sans";
 }
 .container {
   width: 960px;
@@ -10,6 +11,8 @@ body {
 }
 .header {
   font-size: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo,
 .navigation {
@@ -21,8 +24,6 @@ body {
 .logo img {
   width: 44px;
   height: 44px;
-  margin-top: 24px;
-  margin-bottom: 22px;
 }
 .logo span {
   font-size: 30px;
@@ -37,12 +38,12 @@ ul li {
 }
 .link {
   margin-left: 32px;
+  font-size: 20px;
   text-decoration: none;
   color: #949494;
-  padding-bottom: 35px;
-  padding-top: 35px;
+  padding-bottom: 37px;
 }
-:hover .link {
+.link:hover {
   text-decoration: none;
   border-bottom: solid 3px #4e92f5;
 }
@@ -71,37 +72,49 @@ p {
 }
 h2 {
   margin-top: 115px;
+  margin-bottom: 22px;
+}
+.textbanner p {
+  margin-top: 0;
+  margin-bottom: 35px;
 }
 .button {
   margin-left: 15px;
 }
 .smalltext {
-  line-height: 1.5;
-  margin-right: 230px;
+  line-height: 2;
+  padding-right: 230px;
 }
-.icon {
-  display: table;
+.services {
   padding-top: 58px;
+  font-size: 0;
 }
-div.icon img {
+.services img {
   width: 186px;
   height: 186px;
+  margin-bottom: 28px;
 }
 .basket,
 .monitor,
 .pen {
-  display: table-cell;
+  display: inline-block;
+  width: 33%;
+  font-size: 16px;
   text-align: center;
 }
-.icon p {
+.services p {
   color: #949494;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-.icon h3 {
+.services h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
   color: #5393f7;
 }
-.shopping {
+.shop {
   font-size: 0;
-  padding-top: 90px;
+  padding-top: 95px;
 }
 .bluebasket,
 .bullet {
@@ -116,23 +129,28 @@ div.icon img {
 }
 .bluebasket h2 {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 33px;
   font-size: 43px;
   color: #929395;
-  padding-bottom: 33px;
 }
 .bullet p {
   color: #949494;
   line-height: 2.5;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .bullet h3 {
   margin-top: 57px;
+  margin-bottom: 34px;
   color: #797979;
 }
-
-.footer {
-  text-align: center;
+footer {
+  padding-top: 35px;
+  padding-bottom: 47px;
 }
 footer h5 {
   color: #949494;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
 }
