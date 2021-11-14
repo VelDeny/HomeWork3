@@ -4,123 +4,133 @@
 body {
   margin: 0;
 }
-.header {
+.container {
   width: 960px;
   margin: 0 auto;
+}
+.header {
   font-size: 0;
 }
-header .logo,
+.logo,
 .navigation {
   width: 50%;
   display: inline-block;
   font-size: 16px;
-  background-color: aqua;
-  vertical-align: bottom;
-}
-div img,
-span {
-  padding: 23px 0 23px 0;
-  vertical-align: middle;
 }
 
-nav li {
-  list-style-type: none;
-  display: inline;
-  margin-left: 35px;
+.logo img {
+  width: 44px;
+  height: 44px;
+  margin-top: 24px;
+  margin-bottom: 22px;
 }
-nav a {
-  color: #949494;
-  text-decoration: none;
-  display: inline-block;
-  padding-bottom: 23px 0 23px 0;
-}
-nav a:hover {
-  border-bottom: 4px solid;
-  border-bottom-color: #4e92f5;
-}
-.headleft span {
-  font-size: 50px;
-  vertical-align: middle;
-}
-.headleft img {
-  vertical-align: middle;
-}
-.banner {
-  background: url(../img/banner.png) no-repeat;
-  background-size: 100% 100%;
-  height: 490px;
-  font-size: 0;
-}
-div.phone,
-div.text {
-  width: 50%;
-  display: inline-block;
-  font-size: 10px;
-}
-
-div.phone img {
-  display: block;
-  margin-right: 30px;
-  margin-left: auto;
-  padding-top: 42px;
-}
-div.text {
-  position: absolute;
-  top: 20%;
-}
-.bigtext,
-.smalltext {
-  color: white;
-}
-span.bigtext {
+.logo span {
   font-size: 30px;
 }
-span.smalltext {
-  font-size: 20px;
+.logo img,
+span {
+  vertical-align: middle;
 }
-div.icon {
-  width: 1250px;
-  margin: 0 auto;
-  display: table;
+ul li {
+  display: inline;
+  font-size: 16px;
 }
-div.pen,
-div.comp,
-div.basket {
-  padding: 10px;
-  display: table-cell;
-  text-align: center;
+.link {
+  margin-left: 32px;
+  text-decoration: none;
+  color: #949494;
+  padding-bottom: 35px;
+  padding-top: 35px;
 }
-div.icon h3 {
-  color: blue;
+:hover .link {
+  text-decoration: none;
+  border-bottom: solid 3px #4e92f5;
 }
-div.Shopping {
-  width: 1250px;
-  margin: 0 auto;
+.banner {
+  background: url(..//img/banner.png) no-repeat center;
   font-size: 0;
+  height: 490px;
+  padding-top: 36px;
+  padding-bottom: 38px;
 }
-div.Shopping div.bluebasket,
-div.Bullet {
+.phone,
+.textbanner {
   display: inline-block;
   width: 50%;
   font-size: 16px;
+  vertical-align: top;
 }
-div.bluebasket {
+.phone {
+  width: 345px;
+  height: 416px;
+  margin-right: 103px;
+}
+.textbanner h2,
+p {
+  color: #fffdff;
+}
+h2 {
+  margin-top: 115px;
+}
+.button {
+  margin-left: 15px;
+}
+.smalltext {
+  line-height: 1.5;
+  margin-right: 230px;
+}
+.icon {
+  display: table;
+  padding-top: 58px;
+}
+div.icon img {
+  width: 186px;
+  height: 186px;
+}
+.basket,
+.monitor,
+.pen {
+  display: table-cell;
   text-align: center;
 }
-div.Bullet {
-  text-align: left;
-  vertical-align: bottom;
+.icon p {
   color: #949494;
-  line-height: 2;
 }
-div.Bullet p {
-  width: 450px;
-  height: 240px;
+.icon h3 {
+  color: #5393f7;
 }
-footer div.footer {
-  width: 1250px;
-  height: 94px;
-  margin: 0 auto;
+.shopping {
+  font-size: 0;
+  padding-top: 90px;
+}
+.bluebasket,
+.bullet {
+  width: 50%;
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: top;
+}
+.bluebasket img {
+  width: 371px;
+  height: 279px;
+}
+.bluebasket h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 43px;
+  color: #929395;
+  padding-bottom: 33px;
+}
+.bullet p {
+  color: #949494;
+  line-height: 2.5;
+}
+.bullet h3 {
+  margin-top: 57px;
+  color: #797979;
+}
+
+.footer {
   text-align: center;
 }
 footer h5 {
